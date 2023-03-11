@@ -1,0 +1,95 @@
+.app__services {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    background: var(--color-bg2);
+    height: 100%;
+}
+
+.app__sevices-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0 8rem 0;
+}
+
+.app__services-container_items {
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+    margin: 1.3rem;
+    
+}
+
+.app__services-container_items-content {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 1rem 0.4rem ;
+   
+}
+
+.app__services-container_items-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.app__services-container_items-content h3 {
+   font-family: var(--font-family2);
+   color: var(--color-black);
+   width: 100%;
+   margin-top: 0.4rem;
+}
+
+.app__services-container_items-content p {
+    font-family: var(--font-family1);
+    color: var(--color-grey);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 0.5rem;
+    width: 100%;
+   
+}
+
+@media screen and (max-width: 880px) {
+    .app__sevices-container {
+        margin: 0 0 5rem 0 ;
+    }
+    .app__services-container_items-content {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .app__services h1 {
+        font-size: 34px;   
+    }
+
+    .app__services p {
+        font-size: 14px;
+    }
+
+    .app__services-container_items-content p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .app__services h1 {
+        font-size: 25px;   
+    }
+
+    .app__services p {
+        font-size: 10px;
+    }
+
+    .app__services-container_items-content p {
+        font-size: 11px;
+    }
+}
+

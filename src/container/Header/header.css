@@ -1,0 +1,138 @@
+.app__header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-bg2);
+};
+
+
+.app__header-left_container {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.app__header-left_container-content p:first-child {
+  color: var(--color-green);
+  font-family: var(--font-family2);
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 3px;
+
+}
+
+.app__header-left_container-content h1 {
+  color: var(--color-black);
+  font-family: var(--font-family2);
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.5px;
+
+  
+}
+
+.app__header-left_container-content h3 {
+  color: var(--color-green);
+  font-family: var(--font-family2);
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  margin-top: 3px;
+}
+
+.app__header-left_container-content p:last-child {
+  color: var(--color-grey);
+  max-width: 300px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: var(--font-family1);
+  margin-top: 5px;
+}
+
+.app__header-img {
+   width: 600px;
+   height: 460px;
+   padding: 2rem;
+   margin-top: 2rem;
+}
+
+.app__header-img img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+@media screen and (max-width: 1015px) {
+    .app__header-img {
+        
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .app__header-img {
+        width: 600px;
+         height: 460px;
+         margin-top: 0;
+         padding: 0;
+    }
+    .app__header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__header-left_container {
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .app__header-img {
+        width: 470px;
+        height: 400px;
+    }
+
+    .app__header-left_container-content h1 {
+        font-size: 2rem;
+    }
+
+    .app__header-left_container-content h3 {
+        font-size: 1.2rem ;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .app__header-img {
+        width: 400px;
+        height: 340px;
+        padding: 0 1rem;
+    }
+
+    .app__header-left_container-content p:first-child{
+          font-size: 0.9rem;
+    }
+
+    .app__header-left_container-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .app__header-left_container-content h3 {
+        font-size: 0.9rem ;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .app__header-img {
+        width: 360px;
+        height: 300px;
+
+    }
+}

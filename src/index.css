@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+
+:root {
+  --font-family1: 'Inter', sans-serif;
+  --font-family2: 'Raleway', sans-serif;
+
+  
+  --color-green: #ff735c;
+  --color-white1: #F9F9F9;
+  --color-white2: #FFFFFF;
+  --color-black: #061820;
+  --color-grey: #6D7173;
+  --color-bg: #385a64;
+  --color-bg2: #e4f3f7;
+}

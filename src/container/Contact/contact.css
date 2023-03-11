@@ -1,0 +1,68 @@
+.app__contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.app__contact-form_input {
+    margin: 1rem;
+    color: var(--color-grey);
+    font-family: var(--font-family1);
+    font-weight: 600;
+}
+
+.app__contact-form_input input {
+    padding: 8px 3px ;
+    width: 250px;
+    color: var(--color-grey);
+    outline: none;
+    font-weight: 500;
+}
+
+.app__contact-form_input textarea {
+   width: 250px;
+   padding: 1px 3px 12px 3px ;
+   color: var(--color-grey);
+   outline: none;
+   font-weight: 400;
+   font-family: var(--font-family1);
+   font-size: 14px;
+}
+
+.app__contact-form_btn {
+    margin-top: 2rem;
+}
+
+.app__contact-form_btn button {
+    padding:8px 9px;
+    font-family: var(--font-family1);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-white2);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: var(--color-green);
+}
+
+.return-message {
+    margin-top: 2rem;
+}
+
+.return-message h3{
+    text-align: center;
+    font-family: var(--font-family1);
+    color: var(--color-green);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+}
